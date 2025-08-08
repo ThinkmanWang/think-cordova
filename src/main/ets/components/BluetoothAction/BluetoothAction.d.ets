@@ -1,0 +1,9 @@
+import { NativeAttribute } from '../PluginGlobal';
+export declare function StartScanWithOptions(pageIndex: NativeAttribute): Promise<void>;
+export declare function StopBluetoothScan(pageIndex: NativeAttribute): void;
+export declare function GetBluetoothUuids(pageIndex: NativeAttribute): Promise<void>;
+export declare function BluetoothConnect(pageIndex: NativeAttribute): void;
+export declare function BluetoothDisconnect(pageIndex: NativeAttribute): void;
+export declare function BluetoothWrite(pageIndex: NativeAttribute): void;
+export declare function IsBluetoothConnect(pageIndex: NativeAttribute): void;
+export declare function IsBluetoothConnectionManaged(pageIndex: NativeAttribute): void;

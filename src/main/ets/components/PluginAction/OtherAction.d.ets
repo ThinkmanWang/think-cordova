@@ -1,0 +1,9 @@
+import { NativeAttribute } from '../PluginGlobal';
+export declare function GetDeviceInfo(pageIndex: NativeAttribute): void;
+export declare function setAppBadge(pageIndex: NativeAttribute): void;
+export declare function GetFreeSpace(pageIndex: NativeAttribute): void;
+export declare function SetScreenOrientation(pageIndex: NativeAttribute): void;
+export declare function ReStartApp(pageIndex: NativeAttribute): void;
+export declare function SetScaleFont(pageIndex: NativeAttribute): void;
+export declare function GetScaleFont(pageIndex: NativeAttribute): void;
+export declare function NotificationAlert(pageIndex: NativeAttribute): void;

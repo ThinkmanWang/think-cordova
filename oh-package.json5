@@ -1,0 +1,33 @@
+{
+	"name": "think-cordova",
+	"version": "1.8.0",
+	"description": "Cordova,跨平台SDK,自带所有插件遵守cordova官方接口规范，几分钟内完成android/ios项目迁移鸿蒙",
+	"keywords": ["cordova", "跨平台", "鸿蒙跨平台", "鸿蒙cordova", "PhoneGap", "harmony cordova"],
+	"author": "thinkman",
+	"license": "Apache-2.0",
+	"homepage": "",
+	"repository": "",
+	"dependencies": {
+		"libcordova.so": "file:./src/main/cpp/types/libcordova"
+	},
+	"types": "Index.d.ets",
+	"artifactType": "obfuscation",
+	"metadata": {
+		"byteCodeHar": true,
+		"sourceRoots": ["./src/main"],
+		"debug": true,
+		"dependencyPkgVersion": {},
+		"declarationEntry": [],
+		"nativeDebugSymbol": true,
+		"useNormalizedOHMUrl": true
+	},
+	"compatibleSdkVersion": 12,
+	"compatibleSdkType": "HarmonyOS",
+	"obfuscated": false,
+	"nativeComponents": [{
+		"name": "libcordova.so",
+		"compatibleSdkVersion": 12,
+		"compatibleSdkType": "HarmonyOS",
+		"linkLibraries": []
+	}]
+}
